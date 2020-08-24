@@ -9,13 +9,39 @@
     }],
     "require": {
         "php": "^7.1",
-        "goetas-webservices/xsd-reader": "^0.3",
+        "goetas-webservices/xsd-reader": "@dev",
         "symfony/event-dispatcher": "^2.4||^3.0||^4.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^7.0|^8.0",
         "jmikola/wildcard-event-dispatcher": "~1.0"
     },
+    "repositories": [
+        {
+            "url": "https://github.com/Toilal/soap-client.git",
+            "type": "git"
+        },
+        {
+            "url": "https://github.com/Toilal/soap-reader.git",
+            "type": "git"
+        },
+        {
+            "url": "https://github.com/Toilal/wsdl2php.git",
+            "type": "git"
+        },
+        {
+            "url": "https://github.com/Toilal/xsd-reader.git",
+            "type": "git"
+        },
+        {
+            "url": "https://github.com/Toilal/xsd2php.git",
+            "type": "git"
+        },
+        {
+            "url": "https://github.com/Toilal/xsd2php-runtime.git",
+            "type": "git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "GoetasWebservices\\XML\\WSDLReader\\": "src/"
